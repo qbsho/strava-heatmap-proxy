@@ -1,5 +1,6 @@
 #!/usr/bin/env -S deno run --allow-net --allow-env
 //
+//new
 // Log a user into Strava and write the cookies to stdout for later use.
 
 const STRAVA_EMAIL = Deno.env.get("STRAVA_EMAIL")!;
